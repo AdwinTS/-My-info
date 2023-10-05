@@ -1,0 +1,78 @@
+body{
+    background-color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+h1{
+    color: blanchedalmond;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+.second{
+    text-align: left;
+    color: azure;
+}
+.first{
+    color: red;
+    text-align: left;
+}
+.third{
+    text-align: left;
+    color: azure;
+}
+.fourth{
+    text-align: left;
+    color: azure;
+}
+#your-name{
+    text-align: left;
+    color: azure;
+/*
+    background-color: aqua;
+    border: 5px solid  #444;
+width: 400px;
+    padding:25px;
+    margin-top: 50px;
+*/
+}
+h2{
+    text-align: left;
+    margin-bottom: 25px;
+}
+input,button{
+    padding: 25px;
+    margin-bottom: 90px;
+}
+#your-name  p{
+       text-align: left ;
+       color: blue;
+}
+p{
+    text-align: left;
+    color: azure;
+}
+img{
+    width: max-content;
+    
+}
+ul{
+    color: azure;
+}
+.half
+{
+    background-color:yellow;
+}
+.ok
+{
+    background-color: orangered;
+}
+body
+{
+    background-image: url('https://img.freepik.com/free-photo/circuit-cyberspace-closeup-with-neon-lights_90220-1200.jpg?t=st=1696528822~exp=1696532422~hmac=e4b4eb828e5d1e72ca579fba0a75942437edc419494ea9935a719fa9747d58dc&w=996');
+}
+.twenty
+{
+  color: azure;
+}
