@@ -1,7 +1,7 @@
 body{
     background-color:black;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: larger;
 }
 
 h1{
@@ -10,6 +10,61 @@ h1{
     font-size: 40px;
     margin-bottom: 25px;
 }
+
+
+
+.dropdown {
+    float: left;
+    overflow:hidden;
+    display: flex;
+    
+  }
+  
+.dropdown .dropbtn {
+    size: 10rem;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: inherit;
+    font-family: inherit; 
+    margin: 0; }
+  
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color:aqua
+  }
+  
+.dropdown-content {
+    display: none;
+    position:relative;
+    background-color:white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+
+  }
+  
+   /*Links inside the dropdown */
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+*/
+
 .second{
     text-align: left;
     color: azure;
@@ -29,13 +84,13 @@ h1{
 #your-name{
     text-align: left;
     color: azure;
-/*
+
     background-color: aqua;
     border: 5px solid  #444;
 width: 400px;
     padding:25px;
     margin-top: 50px;
-*/
+
 }
 h2{
     text-align: left;
@@ -72,7 +127,91 @@ body
 {
     background-image: url('https://img.freepik.com/free-photo/circuit-cyberspace-closeup-with-neon-lights_90220-1200.jpg?t=st=1696528822~exp=1696532422~hmac=e4b4eb828e5d1e72ca579fba0a75942437edc419494ea9935a719fa9747d58dc&w=996');
 }
+header {
+    background-color:yellow;
+    color: #fff;
+    text-align: center;
+    font-size: 100px ;
+    padding: 20px 0;
+}
 .twenty
 {
   color: azure;
+}
+
+
+.ATS
+{ 
+    color: azure;
+    text-align: left;
+}
+.ATS1
+{
+    color: azure;
+    text-align: left;
+}
+.opik
+{
+    color: azure;
+    text-align: left;
+}
+.where
+{
+    color: azure;
+    text-align: left;
+    
+}
+.he
+{
+   display: flex;
+   justify-content: center;
+   align-items: left;
+}
+
+.wert
+{
+    color: azure;
+    text-align: left;
+}
+.der
+{
+    background-color: blueviolet;
+}
+.About
+{
+    display: flex;
+    justify-content: center;
+}
+
+.style5
+{
+    color: black;
+}
+.op{
+    background-color: azure;
+    color: black;
+}
+.About
+{
+    margin-top: 20px;
+}
+.ATS1234
+{
+    color: azure;
+}
+.ATSWER
+{
+    color: azure;
+}
+.ats23478
+{
+    height: 60px;
+}
+.ats2347890
+{
+    height: 60px;
+}
+.ats23478901
+{
+    height: 60px;
 }
