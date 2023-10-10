@@ -1,217 +1,196 @@
-body{
-    background-color:black;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: larger;
+body {
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
 }
 
-h1{
-    color: blanchedalmond;
-    text-align: center;
-    font-size: 40px;
-    margin-bottom: 25px;
+h1 {
+  color: blanchedalmond;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 25px;
 }
-
-
 
 .dropdown {
-    float: left;
-    overflow:hidden;
-    display: flex;
-    
-  }
-  
+  float: left;
+  overflow: hidden;
+  display: flex;
+}
+
 .dropdown .dropbtn {
-    size: 10rem;
-    border: none;
-    outline: none;
-    color: white;
-    background-color: inherit;
-    font-family: inherit; 
-    margin: 0; }
-  
-.navbar a:hover, .dropdown:hover .dropbtn {
-    background-color:aqua
-  }
-  
+  size: 10rem;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: rgb(31, 9, 89);
+}
+
 .dropdown-content {
-    display: none;
-    position:relative;
-    background-color:white;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+  display: none;
+  position: relative;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
 
-  }
-  
-   /*Links inside the dropdown */
+/*Links inside the dropdown */
 .dropdown-content a {
-    float: none;
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-  
-  /* Add a grey background color to dropdown links on hover */
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
-    background-color: #ddd;
-  }
-  
-  /* Show the dropdown menu on hover */
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
-    display: block;
-  }
+  display: block;
+}
 
-*/
+*/ .second {
+  text-align: left;
+  color: azure;
+}
+.first {
+  color: red;
+  text-align: left;
+}
+.third {
+  text-align: left;
+  color: azure;
+}
+.fourth {
+  text-align: left;
+  color: azure;
+}
+#your-name {
+  text-align: left;
+  color: azure;
 
-.second{
-    text-align: left;
-    color: azure;
+  background-color: aqua;
+  border: 5px solid #444;
+  width: 400px;
+  padding: 25px;
+  margin-top: 50px;
 }
-.first{
-    color: red;
-    text-align: left;
+h2 {
+  text-align: left;
+  margin-bottom: 25px;
 }
-.third{
-    text-align: left;
-    color: azure;
+input,
+button {
+  padding: 25px;
+  margin-bottom: 90px;
 }
-.fourth{
-    text-align: left;
-    color: azure;
+#your-name p {
+  text-align: left;
+  color: blue;
 }
-#your-name{
-    text-align: left;
-    color: azure;
-
-    background-color: aqua;
-    border: 5px solid  #444;
-width: 400px;
-    padding:25px;
-    margin-top: 50px;
-
+p {
+  text-align: left;
+  color: azure;
 }
-h2{
-    text-align: left;
-    margin-bottom: 25px;
+img {
+  width: max-content;
 }
-input,button{
-    padding: 25px;
-    margin-bottom: 90px;
+ul {
+  color: azure;
 }
-#your-name  p{
-       text-align: left ;
-       color: blue;
+.half {
+  background-color: yellow;
 }
-p{
-    text-align: left;
-    color: azure;
+.ok {
+  background-color: orangered;
 }
-img{
-    width: max-content;
-    
-}
-ul{
-    color: azure;
-}
-.half
-{
-    background-color:yellow;
-}
-.ok
-{
-    background-color: orangered;
-}
-body
-{
-    background-image: url('https://img.freepik.com/free-photo/circuit-cyberspace-closeup-with-neon-lights_90220-1200.jpg?t=st=1696528822~exp=1696532422~hmac=e4b4eb828e5d1e72ca579fba0a75942437edc419494ea9935a719fa9747d58dc&w=996');
+body {
+  background-image: url("https://img.freepik.com/free-photo/flat-lay-workstation-with-copy-space-laptop_23-2148430879.jpg?w=1060&t=st=1696956965~exp=1696957565~hmac=e632480ba9823905b82a65082a557874646a7bebe5b2b7f9dae30e31ef7abdf0");
+  background-size: cover;
 }
 header {
-    background-color:yellow;
-    color: #fff;
-    text-align: center;
-    font-size: 100px ;
-    padding: 20px 0;
+  background-color: #0f0b0d;
+  color: #fff;
+  text-align: center;
+  font-size: 100px;
+  padding: 20px 0;
 }
-.twenty
-{
+.twenty {
   color: azure;
 }
 
-
-.ATS
-{ 
-    color: azure;
-    text-align: left;
+.ATS {
+  color: azure;
+  text-align: left;
 }
-.ATS1
-{
-    color: azure;
-    text-align: left;
+.ATS1 {
+  color: azure;
+  text-align: left;
 }
-.opik
-{
-    color: azure;
-    text-align: left;
+.opik {
+  color: azure;
+  text-align: left;
 }
-.where
-{
-    color: azure;
-    text-align: left;
-    
+.where {
+  color: azure;
+  text-align: left;
 }
-.he
-{
-   display: flex;
-   justify-content: center;
-   align-items: left;
+.he {
+  display: flex;
+  justify-content: center;
+  align-items: left;
 }
 
-.wert
-{
-    color: azure;
-    text-align: left;
+.wert {
+  color: azure;
+  text-align: left;
 }
-.der
-{
-    background-color: blueviolet;
+.der {
+  background-color: blueviolet;
 }
-.About
-{
-    display: flex;
-    justify-content: center;
+.About {
+  display: flex;
+  justify-content: center;
+  
 }
 
-.style5
-{
-    color: black;
+.style5 {
+  color: black;
 }
-.op{
-    background-color: azure;
-    color: black;
+.op {
+  background-color: azure;
+  color: black;
 }
-.About
-{
-    margin-top: 20px;
+.About {
+  margin-top: 20px;
 }
-.ATS1234
-{
-    color: azure;
+.ATS1234 {
+  color: azure;
 }
-.ATSWER
-{
-    color: azure;
+.ATSWER {
+  color: azure;
 }
-.ats23478
-{
-    height: 60px;
+.ats23478 {
+  height: 60px;
 }
-.ats2347890
-{
-    height: 60px;
+.ats2347890 {
+  height: 60px;
 }
-.ats23478901
-{
-    height: 60px;
+.ats23478901 {
+  height: 60px;
+}
+.ats234789017 {
+  height: 60px;
 }
